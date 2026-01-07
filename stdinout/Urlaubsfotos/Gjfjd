@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+</head>
+<body>
+
+<h3>Kontaktseite</h3>
+<a href="index.html">Hier gehts zur Startseite</a>
+
+
+<!--semantische Container dienen auf einer Website
+rein zur Leserlichkeit. Sie sind im Browser nicht
+sichtbar!-->
+
+<header style="background-color: lightgray;">
+    <!-- hier befindet sich alles rund um das Thema
+     menü und Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li>Über mich</li>
+            <li>Impressum</li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- hier befindet sich alles was variabel ist, 
+     also sich ständig ändert-->
+    <article></article>
+</main>
+
+<footer>
+    <!-- hier befindet sich alles rund um die Themen
+     Impressum Kontaktdaten, Social Media links etc.-->
+</footer>
+
+</body>
+</html>

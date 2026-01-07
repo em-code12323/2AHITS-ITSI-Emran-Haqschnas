@@ -1,0 +1,22 @@
+# Arbeitsbericht von 24.09.2025
+
+-Thema:Grundlagen von Markdown und Sheel
+-Name:Emran Haqschnas
+-Fach:ITS1
+# Weitere Markdown Elemente 
+
+   ```cpp
+#include <stdio.h>
+
+
+ int main()
+
+ {
+
+    printf("hello World\n");
+
+  
+   
+ }
+   ```  
+Horizontale Linie ---

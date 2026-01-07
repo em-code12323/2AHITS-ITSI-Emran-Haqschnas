@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelle in html</title>
+</head>
+<body>
+
+    <a href="index.html">zurück zur Startseite</a>
+
+    <hr> <!-- horizontal row-->
+
+    <center>
+
+    <!-- mittels dem center tag kann man zentrieren-->
+    <h1>Tabellen in html</h1>
+
+
+    <!-- <tr> ist die table row(->Zeile) <td> ist die table data(->Spalte)-->
+    <!-- <th> table header-->
+    
+    <table border="1">
+        <tr>
+            <th colspan="3">Ich bin ein table header</th>
+            <!-- colspan fasst Spalten zusammen-->
+        </tr>
+        <tr>
+            <td rowspan="2">Zeile 1&2 Spalte 1</td>
+            <!-- rowspan fasst Zeilen zusammen-->
+            <td>Zeile 1 Spalte 2</td>
+            <td>Zeile 1 Spalte 3</td>
+        </tr>
+        <tr>
+            <td colspan="2"><center>Zeile 2 Spalte 2&3</center></td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
