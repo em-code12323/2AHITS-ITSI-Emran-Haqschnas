@@ -1,0 +1,7 @@
+
+Bilder
+
+
+Um ein Bild auf eine Webseite hinzuzufügen, verwenden wir das Tag <img>. Das ist ein Leertag, das bedeutet, dass es kein Endtag hat und nur Attribute enthält.
+Das Attribut src (source) gibt den Namen oder die Position des anzuzeigenden Bildes an. Der Wert des Attributs src muss den Namen der Bilddatei oder deren URL enthalten.
+

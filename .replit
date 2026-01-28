@@ -9,4 +9,4 @@ localPort = 5000
 externalPort = 80
 
 [nix]
-packages = ["man", "tree", "wget", "nano"]
+packages = ["man", "nano", "tree", "wget"]

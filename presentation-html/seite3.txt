@@ -1,0 +1,6 @@
+
+
+Geordnete Liste 
+
+Die geordnete HTML-Liste wird für die Auflistung von Artikeln verwendet, die mit Nummern gekennzeichnet sind. Es beginnt mit dem Tag <ol>. Dieses Tag kommt gepaart an, der Inhalt wird zwischen den Start- <ol> und Endtags </ol> geschrieben.
+Jedes Element in der geordneten Liste beginnt mit dem Starttag <li> und endet mit dem Endtag </li>. Die Artikel in geordneten Listen sind standardmäßig mit Nummern gekennzeichnet.

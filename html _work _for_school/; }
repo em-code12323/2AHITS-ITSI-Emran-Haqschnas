@@ -1,0 +1,36 @@
+nav a{
+    margin: 0 8px
+}
+.cards{
+
+    padding: 12px;
+    margin: 7px;
+    border: 1 px solid azure;
+    min-width: 100px;/*mindestbreite*/
+    flex: 1;/*Kartenteilen den Platz gleichmäßig*/
+
+
+}
+
+#cards {
+    display: flex; /*ordnet die Karten nebeneinander an */
+
+    gap:10px /* Abstand zwischen den Boxen */
+
+
+}
+.button{
+
+    padding: 10px ;
+    padding-left: 5px;
+    border: 2px;
+     background-color: rgb(115, 218, 115);
+    margin-top:  15px;
+    display: inlien block;
+
+}
+a{
+
+    text-decoration: none;/*keine Unterstreichung*/
+    color;
+}

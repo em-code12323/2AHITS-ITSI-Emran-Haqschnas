@@ -1,0 +1,6 @@
+Ungeordnete Liste 
+
+
+
+Wir verwenden ungeordnete Listen, um Artikel ohne besondere Reihenfolge aufzulisten. Um eine ungeordnete Liste zu erstellen, verwenden wir das Tag <ul>. Dieser Tag wird gepaart verwendet. Der Inhalt wird zwischen den Start- <ul> und Endtags </ul> geschrieben.
+Jedes Element in der ungeordneten Liste wird zwischen den Tags <li> platziert.

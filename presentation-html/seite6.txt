@@ -1,0 +1,10 @@
+bilder 
+
+Das Attribut alt ist für das Image-Tag auch notwendig. Es wird verwendet, um Browsern einen alternativen Text zur Verfügung zu stellen, wenn das Bild nicht angezeigt werden kann (bei langsamer Verbindung, wenn ein Bildschirmleser verwendet wird usw.). Die Browser zeigen oft den alternativen Text des Bildes als Popup an, wenn Sie mit der Maus drauf führen.
+
+Empfohlene Bildattribute
+Es wird empfohlen, die Attribute width und height mit dem Tag <img> zu verwenden. Wenn diese Attribute verwendet werden, reserviert der Browser Platz für das Bild beim Laden des Inhalts, was das Rendering der Seite beschleunigt.
+
+
+
+Da das Tag <a> für das Einfügen von Hyperlinks verwendet wird, müssen Sie das Bild nur ins Tag <a> einfügen, um Ihr Bild anklickbar zu machen.
