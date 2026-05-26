@@ -9,4 +9,4 @@ localPort = 5000
 externalPort = 80
 
 [nix]
-packages = ["man", "nano", "tree", "unixtools.xxd", "wget", "gdb", "pwntools", "hexedit"]
+packages = ["man", "nano", "tree", "unixtools.xxd", "wget", "gdb", "pwntools", "hexedit", "fltk"]
