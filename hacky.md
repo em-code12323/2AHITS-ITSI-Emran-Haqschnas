@@ -53,13 +53,19 @@ f gibt die jeweilige spalte aus und  -c gibt eine  eine range von  n0-n1 aus die
 ## Übung (Anzahl Werkstatt)
 Schreibe ein shell Kommando (Einzeiler) das in klassenkassa.csv die Anzahl der Einträge mit dem Text Werkstatt zählt.
 
-keine ahnung  keine ahnung ich weiß nicht wie es geht leider. :(
+```sh
+grep -c "Werkstatt" klassenkassa.csv
+```
+
 
 
 Übung (Werkstatt Summe)
 Schreibe ein shell Kommando (Einzeiler) das in klassenkassa.csv alle Beträge mit dem Text Werkstatt in folgender Form ausgibt:
 ```
 3.0+15.0+3.0+13.0+2.5
+```
+```sh
+grep "Werkstatt" klassenkassa.csv | cut -d',' -f3
 ```
 
 
