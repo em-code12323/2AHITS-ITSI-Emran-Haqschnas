@@ -1,1 +1,0 @@
-https://www.franzmatejka.at/htl/doc/ITSI_2_linux/testdata/shopping.txt
