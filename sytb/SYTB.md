@@ -24,9 +24,30 @@ Version
 
 Windows 10(AUSWAELBAR)
 ```
-Sie Benennen dann die Virtuelle Maschine Wk10-2 und browsen zu dem passenden Ordner.
-Jetzt stellen sie die SSD größe ein (40GB) und für RAM/Memory 4 GB zudem wählt man als Netzwerk Einstellung Custom und dann  VMnet0 aus.
+### Benennen sie dann die Virtuelle Maschine und finden sie denn gleichnamingen ordner (WK10-2)
+Einstellungen:
+SSD:40GB
+RAM/MEMORY:4GB
+NETZWERK:custom VMnet0
+CD/DVD(SATA):USE iso image file (browse -> wählen sie die  iso datei aus)
+-----------
 
-Bei der Cd sas nutzne wir die eigene iso datei zum booten dann startet man die Virutelle Maschine und logt sich ganz normal über domain an mit dem user sysadmin und passwort:Win#sys#admin10.
-jetzt würde man im windows 10 sein als erstes bildschirm 
-Auflösung einstellen und dann direkt das netzwerk Konfigurieren mittels View Netzwork connections dort machen wir einen Rechtsklick auf das ethernet gehen zur ip version 4 einstellung drücken auf propertiers und stellen die ip adresse . . . .  subnetmask 255.255 .255.0  dns 1.1.1.1  
+### Danach kann man sich ganz normal über domain Anmelden 
+- user:sysadmin
+- password:Win#sys#admin10
+-----
+
+### Im Windows angekommen stellt man die auflösung richtig und Konfiguriert das Netzwerk
+Dazu geht man auf ->View Network connections -> Rechtsklick auf ethernet gehen -> ip version 4 -> Eigenschaften -> properties 
+
+
+## Dort folgendes eingeben:
+- ip adresse 192.168.12.12 (Ich saß auf pc 12 deshalb ist bei mir 12 an dritter stelle )
+- subnetmask 255.255.255.0
+- default gateway 192.168.12.254
+- bevorzugter dns server :1.1.1.1
+- ----
+pingen sie jetzt www.orf.at
+hierzu windows+r -> cmd ->(im fenster)ping www.orf.at
+
+
